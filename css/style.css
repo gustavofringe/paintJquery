@@ -1,0 +1,46 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 7, ../sass/style.scss */
+main .color-button
+button {
+  border: none;
+  border-radius: 2px;
+  width: 30px;
+  height: 30px;
+  margin: 3px;
+}
+/* line 15, ../sass/style.scss */
+main .pink {
+  background: #880E4F;
+}
+/* line 18, ../sass/style.scss */
+main .red {
+  background: #B71C1C;
+}
+/* line 21, ../sass/style.scss */
+main .purple {
+  background: #4A148C;
+}
+/* line 24, ../sass/style.scss */
+main .deepPurpule {
+  background: #311B92;
+}
+/* line 28, ../sass/style.scss */
+main body {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+/* line 34, ../sass/style.scss */
+main canvas {
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+  background-color: antiquewhite;
+  border: 2px solid grey;
+  border-radius: 2px;
+  cursor: crosshair;
+}
