@@ -17,6 +17,7 @@ canvas.height= $('#draw').height();
 $('#draw').mousedown(function (event) {
     click = true;
     ctx.moveTo(event.pageX, event.pageY);
+    //ctx.closePath();
 });
 /**
  *
@@ -29,6 +30,7 @@ $('#draw').mousemove(function (event) {
         ctx.fillStyle = $('input[type=color]').val();
         ctx.arc(event.offsetX, event.offsetY, $('input[type=range]').val(), 0, 360);
         ctx.fill();
+        ctx.closePath();
     }
 });
 /**
@@ -38,6 +40,7 @@ $('#draw').mousemove(function (event) {
  * */
 $('#draw').mouseup(function () {
     click = false;
+    //ctx.closePath();
 });
 /**
  *
